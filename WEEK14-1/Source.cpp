@@ -28,6 +28,6 @@ int main()
             countsoul(&c[i][k], &c[i - 1][k], &c[i][k - 1], &c[i][k + 1], &c[i + 1][k], &soul);
         }
     }
-    cout << "soul : " << soul << endl;
+    cout << soul << endl;
     return 0;
 }
